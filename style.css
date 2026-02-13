@@ -3,7 +3,7 @@ body {
     background-color: #eef; 
 }
 h2 { 
-    color: darkblue; 
+    color: lightblue; 
 }
 button { 
     padding: 10px 20px; 
@@ -11,4 +11,5 @@ button {
     color: white;
     border: none; 
     cursor: pointer; 
+
 }
