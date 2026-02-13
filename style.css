@@ -1,6 +1,6 @@
 body { 
     text-align: center;
-    background-color: #eef; 
+    background-color: #EEEEEE; 
 }
 h2 { 
     color: lightblue; 
@@ -15,5 +15,6 @@ button {
     cursor: pointer; 
 
 }
+
 
 
