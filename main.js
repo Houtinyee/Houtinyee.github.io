@@ -1,3 +1,3 @@
 function showMessage() {
-      alert("This is JavaScript adding interactivity!");
+      alert("I'm a chud!");
     }
