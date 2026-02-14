@@ -4,13 +4,18 @@ function showMessage() {
 }
 function changeImage() {
   let img = document.getElementById("myImage");
-  if(x == 0){
+  if(x % 2 == 0 && x % 10 != 0){
     img.src = "spookycat.png";
     img.style.height = "920px";
     img.style.width = "918px";
-    x = 1;
+    x++;
+  }else if(x % 10 == 0){
+    img.src = "Marco.png";
+    img.style.height = "920px";
+    img.style.width = "918px";
+    x++;
   }else{
     img.src = "cat.png";
-    x = 0;
+    x++;
   }
 }
