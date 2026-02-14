@@ -4,7 +4,7 @@ function showMessage() {
 }
 function changeImage() {
   let img = document.getElementById("myImage");
-  if(x % 2 == 0 && x % 10 != 0){
+  if(x % 2 == 0 && x % 10 != 0 || x == 0){
     img.src = "spookycat.png";
     img.style.height = "920px";
     img.style.width = "918px";
