@@ -18,6 +18,14 @@ button {
     cursor: pointer; 
 
 }
+div{
+  border: none;
+  padding: 10px;
+  width: 1400px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+}
 
 
 

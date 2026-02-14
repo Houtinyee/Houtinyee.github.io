@@ -1,6 +1,6 @@
 let x = 0;
 function showMessage() {
-  alert("I'm a chud!");
+  alert("houyee@ethz.ch");
 }
 function changeImage() {
   let img = document.getElementById("myImage");
