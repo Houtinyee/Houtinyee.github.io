@@ -6,6 +6,8 @@ function changeImage() {
   let img = document.getElementById("myImage");
   if(x == 0){
     img.src = "spookycat.png";
+    img.style.height = "920px";
+    img.style.width = "918px";
     x = 1;
   }else{
     img.src = "cat.png";
