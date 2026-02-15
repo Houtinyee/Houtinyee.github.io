@@ -19,3 +19,11 @@ function changeImage() {
     x++;
   }
 }
+function edge(){
+  let div = document.getElementById("EPROG");
+  div.classList = "div1";
+}
+function goon(){
+  let div = document.getElementById("EPROG");
+  div.classList = "div";
+}

@@ -16,13 +16,40 @@ button {
     border: none; 
     border-radius: 5px;
     cursor: pointer; 
-
+    transition-duration: 0.4s;
 }
+
+.button1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
 footer{
   border: none;
   padding: 10px;
   width: 1400px;
   height: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.div1{
+  border: solid black;
+  border-radius: 5px;
+  padding-top: 50px;
+  width: 1400px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  transition-duration: 0.4s;
+}
+
+.div1:hover{
+  border: solid black;
+  border-radius: 5px;
+  width: 1400px;
+  height: 100px;
+  background-color: #8E1616; 
+  color:white;
   text-align: center;
   margin: auto;
 }
